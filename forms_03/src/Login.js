@@ -9,7 +9,7 @@ export class Login extends React.Component{
     state = { 
         username: "",
         password: "",
-        checked: "false"
+        checked: false
             }
 
     handleInputChange = (event) => {
