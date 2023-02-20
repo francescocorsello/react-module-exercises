@@ -1,0 +1,6 @@
+/* // Create an index.css file and import it within the index.js file. Add a .welcome class to the Welcome component that changes its background color and adds a border. */
+
+.welcome{
+    background-color: rgb(29, 207, 207);
+    border: 4px solid;
+}
