@@ -1,0 +1,6 @@
+import ReactDOM from 'react-dom';
+import { ToDoList } from './ToDoList';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<ToDoList />)
