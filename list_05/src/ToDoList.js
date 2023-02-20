@@ -18,12 +18,7 @@ export class ToDoList extends React.Component {
         })
         
     }
-
-    state = {
-        task:""
-    }    
-
-    resetArr = []
+    
     handleResetState = () =>{
         this.element = []
         this.setState({
