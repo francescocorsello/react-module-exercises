@@ -1,3 +1,5 @@
+// Consume the LanguageContext within the DisplayLanguage component by using the context consumer, and show the selected language in an h1 tag.
+
 import React from "react";
 import { LanguageContext } from "./LanguageContext";
 import { Welcome } from "./Welcome";
