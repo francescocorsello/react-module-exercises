@@ -25,9 +25,9 @@ export function Login(){
     console.log(data)
     return (
         <form>
-            <input onChange={handleInputChange}name="username" value={data.username} ></input>
-            <input onChange={handleInputChange}name="username" value={data.password} type="password" ></input>
-            <input onChange={handleInputChange} name="username" checked={data.remember} type="checkbox" ></input>
+            <input name="username" onChange={handleInputChange} value={data.username} ></input>
+            <input name="password" onChange={handleInputChange} value={data.password} type="password" ></input>
+            <input name="remember" onChange={handleInputChange}  checked={data.remember} type="checkbox" ></input>
         </form>
     )
     
