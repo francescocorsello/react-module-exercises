@@ -1,7 +1,4 @@
-import { Welcome } from "./Welcome";
-
-export function App(){
-    return(
-        <Welcome name={"Alessandro"}/>
-    )
+export function Welcome(){
+    const {name = "Alessandro"} = useParams()
+    return <h1>Hello {name}!</h1>
 }
