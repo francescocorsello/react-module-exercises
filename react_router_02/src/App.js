@@ -9,7 +9,7 @@ export function App(){
         <Routes>
              <Route path="/" element={<Welcome/>}/>
             <Route path="/:name" element={<Welcome/>}/>
-            <Route path="/:counter" element={<Counter/>} />
+            <Route path="/counter" element={<Counter/>} />
         </Routes>
         </div>
     )
