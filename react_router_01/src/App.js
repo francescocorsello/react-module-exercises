@@ -1,6 +1,11 @@
-import { useParams } from "react-router-dom"
+import { Welcome } from "./Welcome";
+import { Route, Routes } from "react-router-dom";
 
-export function Welcome(){
-    const {name = "Alessandro"} = useParams()
-    return <h1>Hello {name}!</h1>
+export function App(){
+    return(
+        <Routes>
+        <Route path="/" element={<Welcome/>}/>
+         <Route path="/:name" element={<Welcome/>}/>
+          </Routes>
+    )
 }
